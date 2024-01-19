@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206754277167",
+    "project_id": "the-grimpeurs-cycling-cl-38857",
+    "storage_bucket": "the-grimpeurs-cycling-cl-38857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206754277167:android:bf7246a1fe388352c063da",
+        "android_client_info": {
+          "package_name": "com.example.thegrimpeurscyclingclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHwrAZLGGDJknCOhRyqCpuiNNUUIeji-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateEventType">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <TextView
+            android:id="@+id/updateEventType"
+            android:layout_width="369dp"
+            android:layout_height="41dp"
+            android:text="@string/type"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/update_event_type"
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickRadioButton"
+                android:text="@string/Time_Trial" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickRadioButton"
+                android:text="@string/Road_Race" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickRadioButton"
+                android:text="@string/Hill_Climb" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="394dp"
+            android:layout_height="47dp"
+            android:text="@string/info"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editUpdateDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Detail"
+            android:inputType="text"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editUpdateAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Age"
+            android:inputType="text"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editUpdatePace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Pace"
+            android:inputType="text"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editUpdateLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Level"
+            android:inputType="text"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editUpdateAdditional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/update_AdditionalIformation"
+            android:inputType="text"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickUpdate"
+            android:text="@string/Update" />
+
+        <Button
+            android:id="@+id/btn_back2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBack"
+            android:text="@string/back" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

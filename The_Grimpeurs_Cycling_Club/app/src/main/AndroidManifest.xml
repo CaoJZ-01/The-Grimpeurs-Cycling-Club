@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheGrimpeursCyclingClub"
+        tools:targetApi="31">
+        <activity
+            android:name=".SelectClub"
+            android:theme="@style/AppTheme.JcNewStyle"
+            android:exported="false" />
+        <activity
+            android:name=".RateClub"
+            android:theme="@style/AppTheme.JcNewStyle"
+            android:exported="false" />
+        <activity
+            android:name=".SelectSearchClub"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".SelectSearchName"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".SelectSearchEventType"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".ShowEvents"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".FillPersonalInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipateMain"
+            android:exported="false" />
+        <activity
+            android:name=".SelectEvent"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".SelectEventType"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteEvent"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".UpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".CreateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".CyclingClub_CompleteProfile"
+            android:exported="false" />
+        <activity
+            android:name=".CyclingClub_Main"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteMemberList"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".DeleteEventType"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".UpdateEventType"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".AddEventInfo"
+            android:exported="false"
+            android:theme="@style/AppTheme.JcNewStyle" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
