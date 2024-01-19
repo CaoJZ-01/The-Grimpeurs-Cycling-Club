@@ -12,9 +12,12 @@ Once the user logs in, they will see a second screen with the following message,
 We use Firebase as DB support.
 
 ## Deliverable 2
-In deliverable 2, we implement the Admin related functionality. The app allows admin users to add, edit and delete event types that can be offered by cycling clubs using the application.
+In deliverable 2, we implement the Admin-related functionality. The app allows admin users to add, edit and delete event types that can be offered by cycling clubs using the application.
 
 Additionally, the admin account is able to delete cycling club accounts and participant accounts. A cycling club is managed by a single owner. 
 
 ## Deliverable 3
 In this deliverable, we implement the cycling club-related functionality. The app is able to allow club owners to complete the club profile and associate their club to the set of predefined and available types of events (that were created by the admin).
+
+## Deliverable 4
+In this deliverable, we implement the participant-related functionality. The app allows participants to search for a cycling club, type of event or specific event. The application can display the list of cycling clubs organizing such events.
