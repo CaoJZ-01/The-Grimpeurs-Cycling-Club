@@ -21,3 +21,7 @@ In this deliverable, we implement the cycling club-related functionality. The ap
 
 ## Deliverable 4
 In this deliverable, we implement the participant-related functionality. The app allows participants to search for a cycling club, type of event or specific event. The application can display the list of cycling clubs organizing such events.
+
+···
+import numpy as np
+```
